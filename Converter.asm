@@ -115,7 +115,7 @@ KODIKAS SEGMENT
                   
                   
                   
-        JMP TELOS          
+        JMP FINISH          
         DIPSIFIOS:     
         CMP BL,9
         JBE MONOPSIFIOS:
@@ -138,7 +138,7 @@ KODIKAS SEGMENT
         MOV AH,02
         INT 21H
 
-        JMP TELOS
+        JMP FINISH
         
         MONOPSIFIOS:
         MOV DL,BL
@@ -151,7 +151,7 @@ KODIKAS SEGMENT
       
         
       
-        JMP END
+        JMP FINISH
         
         
         NOINPUT:
@@ -159,7 +159,7 @@ KODIKAS SEGMENT
         MOV AH,09
         INT 21H
         
-        END:
+        FINISH:
         MOV AH,4CH
         INT 21H
 	
