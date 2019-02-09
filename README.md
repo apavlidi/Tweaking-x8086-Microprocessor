@@ -8,3 +8,18 @@ The asks for a sentence and it prints the number of the characters of each word 
 
 ### Sort Numbers
 The program asks for three decimal numbers (0-9) and it prints two lines, the first line are the numbers sorted by ascending order and the second line are the numbers sorted by descending order. The programm \*Beeps\* on wrong input such as a character instead of a number
+
+### Converter
+Converter converts a binary number to a decimal one. It asks for an 8length binary input, it converts it to decimal and it prints it on the console. The progaram **BEEPS** when the input is not a binary (0-1).
+
+### FindChar
+A classic program where a user types a sentence and a character and the program counts how many times the character exists in the sentence and in what positions. 
+> **Note:** In order to submit your sentence press "!".
+
+### HexOperator
+The HexOperator asks for two hexadecimal inputs and then for an operation to apply on those two hexadecimals. The output is on decimal.
+In case of wrong input (e.g a non hex symbol or a non supported operation) it prints again the message for reading the input.
+
+### FindMaxWord
+By providing a text as an input, the program finds out which word is the longest one and it prints it.
+> **Note:** In order to submit your sentence press "&".
