@@ -1,6 +1,10 @@
 # Tweaking-x8086-Microprocessor
 
 In this Repo you will find little programs implementing some common algorithms.
+The programs are implemented on a x8086 microprocessor and you will need an emulator in order to execute them.
+
+Download Link [here](http://aetos.it.teithe.gr/~apavlidi/Setup.exe "x8086 Microprocessor")
+
 
 ### Count Chars
 The asks for a sentence and it prints the number of the characters of each word in a new line.
